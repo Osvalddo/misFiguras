@@ -1,0 +1,9 @@
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.exe
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.pdb
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\bin\Debug\misFiguras.exe
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\bin\Debug\misFiguras.pdb
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmTriangulo.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmInicio.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.Properties.Resources.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.csproj.GenerateResource.Cache
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmRectang2.resources

@@ -1,0 +1,16 @@
+D:\OLR\miTriangulo\miTriangulo\bin\Debug\miTriangulo.exe
+D:\OLR\miTriangulo\miTriangulo\bin\Debug\miTriangulo.pdb
+D:\OLR\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.frmTriangulo.resources
+D:\OLR\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.Properties.Resources.resources
+D:\OLR\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.csproj.GenerateResource.Cache
+D:\OLR\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.exe
+D:\OLR\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.pdb
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\miTriangulo.csproj.GenerateResource.Cache
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\bin\Debug\misFiguras.exe
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\bin\Debug\misFiguras.pdb
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmTriangulo.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmInicio.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.Properties.Resources.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.Resources.frmRectangulo.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.exe
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.pdb
