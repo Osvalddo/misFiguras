@@ -23,31 +23,36 @@ namespace misFiguras
             a.pLado1 = Convert.ToDouble(txtLado1.Text);
             a.pLado2 = Convert.ToDouble(txtLado2.Text);
             a.pLado3 = Convert.ToDouble(txtLado3.Text);
+            a.pTipo = a.tipoTriangulo();
 
            // lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
 
-            if (a.pLado1 == a.pLado2 && a.pLado2 == a.pLado3)
-            { 
-                lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
-                lblcalcularPerim.Text = Convert.ToString(a.calcularPerimEquilatero());
-                a.pTipo = "Equilatero";
+            //if ((a.pLado1 == a.pLado2) & (a.pLado2 == a.pLado3))
+            //{ 
+            //    lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
+            //    lblcalcularPerim.Text = Convert.ToString(a.calcularPerimEquilatero());
+            //    a.pTipo = "Equilatero";
             
-            }
+            //}
 
-            if (a.pLado1 != a.pLado2 && a.pLado3 != a.pLado2) 
-            {
-                lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
-                lblcalcularPerim.Text = Convert.ToString(a.calcularPerimEscaleno());
-                a.pTipo = "Escaleno";
-            }
+            //if ((a.pLado1 != a.pLado2) & (a.pLado3 != a.pLado2)) 
+            //{
+            //    lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
+            //    lblcalcularPerim.Text = Convert.ToString(a.calcularPerimEscaleno());
+            //    a.pTipo = "Escaleno";
+            //}
 
-            //triangulo isosceles
-            if (a.pLado1 == a.pLado2 || a.pLado2 == a.pLado3) 
-            {
-                lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
-                lblcalcularPerim.Text = Convert.ToString(a.calcularPerimIsosceles());
-                a.pTipo = "Isosceles";
-            }
+            ////triangulo isosceles
+            //if (a.pLado1 == a.pLado2 || a.pLado2 == a.pLado3) 
+            //{
+            //    lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
+            //    lblcalcularPerim.Text = Convert.ToString(a.calcularPerimIsosceles());
+            //    a.pTipo = "Isosceles";
+            //}
+
+            lblcalcularSuperf.Text = Convert.ToString(a.calcularSuperficie());
+            lblcalcularPerim.Text = Convert.ToString(a.calcularPerim());
+
 
             MessageBox.Show(a.toString());
             

@@ -7,3 +7,4 @@ D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTri
 D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.Properties.Resources.resources
 D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.csproj.GenerateResource.Cache
 D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.frmRectang2.resources
+D:\Users\Usuario\Desktop\Tecnicatura\Programación I\Practicos\miTriangulo\miTriangulo\obj\x86\Debug\misFiguras.csprojResolveAssemblyReference.cache

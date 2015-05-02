@@ -67,33 +67,55 @@ namespace misFiguras
     3) Escaleno, cuando todos sus lados son distintos
  * 
  */
-        public double calcularPerimEquilatero()
-        {
-            perimetro = 3 * lado1;
+        public double calcularPerim()
+        {   perimetro = lado1 + lado2 + lado3;
             return perimetro;
         }
 
-        public double calcularPerimEscaleno()
-        {
-            perimetro = lado1 + lado2 + lado3;
-            return perimetro;
-        }
+        //public double calcularPerimEquilatero()
+        //{
+        //    //perimetro = 3 * lado1; el perimetro es la suma de sus lados
+        //    perimetro = lado1 + lado2 + lado3;
+        //    return perimetro;
+        //}
 
-        public double calcularPerimIsosceles()
+        //public double calcularPerimEscaleno()
+        //{
+        //    perimetro = lado1 + lado2 + lado3;
+        //    return perimetro;
+        //}
+
+        //public double calcularPerimIsosceles()
+        //{
+        //    //if (lado1 == lado2) { 
+        //    //    perimetro = lado1 * 2 + lado3;
+        //    //    //return perimetro;
+        //    //                    }
+        //    //if (lado2 == lado3) {
+        //    //    perimetro = lado2 * 2 + lado1;
+        //    //    //return perimetro;
+        //    //                    }
+        //    //if (lado3 == lado1) {
+        //    //    perimetro = lado3 * 2 + lado2;
+        //    //    //return perimetro;
+        //    //                    }
+        //    perimetro = lado1 + lado2 + lado3;
+        //    return perimetro;
+        //}
+
+        //definir tipo de triangulo
+        public string tipoTriangulo()
         {
-            if (lado1 == lado2) { 
-                perimetro = lado1 * 2 + lado3;
-                //return perimetro;
-                                }
-            if (lado2 == lado3) {
-                perimetro = lado2 * 2 + lado1;
-                //return perimetro;
-                                }
-            if (lado3 == lado1) {
-                perimetro = lado3 * 2 + lado2;
-                //return perimetro;
-                                }
-            return perimetro;
+            if ((lado1 == lado2) & (lado2 == lado3))
+            { tipo = "Equilatero"; }
+
+            if ((lado1 != lado2) & (lado2 != lado3) & (lado3 != lado1))
+            { tipo = "Escaleno"; }
+
+            if (((lado1 == lado2) & (lado2 != lado3)) || ((lado2 == pLado3) & (pLado3 != lado1)) || ((lado3 == lado1) & (lado1 != pLado2)))
+            { tipo = "Isosceles"; }
+
+            return tipo;
         }
 
         public string toString()
