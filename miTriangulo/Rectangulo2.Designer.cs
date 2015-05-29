@@ -97,6 +97,7 @@
             this.txtLadoB.Name = "txtLadoB";
             this.txtLadoB.Size = new System.Drawing.Size(61, 22);
             this.txtLadoB.TabIndex = 16;
+            this.txtLadoB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLadoB_KeyPress);
             // 
             // lblLado2R
             // 

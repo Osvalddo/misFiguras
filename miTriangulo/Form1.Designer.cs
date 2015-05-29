@@ -80,8 +80,9 @@
             this.txtLado1.Name = "txtLado1";
             this.txtLado1.Size = new System.Drawing.Size(61, 22);
             this.txtLado1.TabIndex = 0;
-            this.txtLado1.TextChanged += new System.EventHandler(this.txtLado1_TextChanged);
+            this.txtLado1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLado1_KeyPress);
             this.txtLado1.Leave += new System.EventHandler(this.txtLado1_Leave);
+            this.txtLado1.Validating += new System.ComponentModel.CancelEventHandler(this.txtLado1_Validating);
             // 
             // txtLado2
             // 
@@ -91,6 +92,7 @@
             this.txtLado2.Name = "txtLado2";
             this.txtLado2.Size = new System.Drawing.Size(61, 22);
             this.txtLado2.TabIndex = 1;
+            this.txtLado2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLado2_KeyPress);
             // 
             // txtLado3
             // 

@@ -31,5 +31,21 @@ namespace misFiguras
             lblcalcularSuperfR.Text = Convert.ToString(a.calcularSuperficieR());
             lblcalcularPerim.Text = Convert.ToString(a.calcularPerimetroR());
         }
+
+        private void txtLadoB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ','))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtLadoA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ','))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
